@@ -483,6 +483,10 @@ backstage:
               type: url
               rules:
                 - allow: [Component, System]
+            - target: https://github.com/rhdh-demo-gh/ob-demo/blob/main/locations.yaml
+              type: url
+              rules:
+                - allow: [Location, Domain, System, Resource, Group, User, Component, API]
           providers:
             modelCatalog:
               development:
