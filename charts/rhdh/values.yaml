@@ -410,10 +410,10 @@ backstage:
         backend:
           actions:
             pluginSources:
+              - 'software-catalog-mcp-extras'
               - 'techdocs-mcp-extras'
+              - 'scaffolder-mcp-extras'
               - 'kubernetes-mcp-extras'
-              - 'catalog'
-              - 'scaffolder'
           auth:
             externalAccess:
               - type: static
